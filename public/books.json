@@ -1,0 +1,80 @@
+[
+  {
+    "bookId": "001",
+    "bookName": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "image": "https://i.postimg.cc/yNZNgxX2/Black-Halloween-Book-Cover-Template-Made-with-Poster-My-Wall.jpg",
+    "totalPages": 336,
+    "rating": 4.5,
+    "category": "Fiction",
+    "tags": ["Suspense", "Psychological"],
+    "publisher": "Celadon Books",
+    "yearOfPublishing": 2019,
+    "review": "A chilling psychological thriller that keeps readers on the edge of their seats until the very last page."
+  },
+  {
+    "bookId": "002",
+    "bookName": "Educated",
+    "author": "Tara Westover",
+    "image": "https://i.postimg.cc/pXsr3gLc/book-cover-design-Made-with-Poster-My-Wall.jpg",
+    "totalPages": 352,
+    "rating": 4.7,
+    "category": "Biography",
+    "tags": ["Memoir", "Inspiring"],
+    "publisher": "Random House",
+    "yearOfPublishing": 2018,
+    "review": "A powerful memoir about a young woman who, kept out of school, leaves her survivalist family and goes on to earn a PhD from Cambridge University."
+  },
+  {
+    "bookId": "003",
+    "bookName": "Becoming",
+    "author": "Michelle Obama",
+    "image": "https://i.postimg.cc/pTMLDvsr/City-Night-Urban-gold-Flyer-Template-Made-with-Poster-My-Wall.jpg",
+    "review": "An intimate, powerful, and inspiring memoir by the former First Lady of the United States, chronicling her life from childhood to the White House.",
+    "totalPages": 448,
+    "rating": 4.8,
+    "category": "Autobiography",
+    "tags": ["Inspiring", "Political"],
+    "publisher": "Crown Publishing Group",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": "004",
+    "bookName": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "image": "https://i.postimg.cc/wv5T2rrV/Girls-Pink-Party-Flyer-Template-Made-with-Poster-My-Wall.jpg.",
+    "totalPages": 224,
+    "rating": 4.3,
+    "category": "Self-Help",
+    "tags": ["Personal Development", "Philosophy"],
+    "publisher": "Harper",
+    "yearOfPublishing": 2016,
+    "review": "A counterintuitive approach to living a good life, emphasizing the importance of embracing limitations and focusing on what truly matters."
+  },
+  {
+    "bookId": "005",
+    "bookName": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "image": "https://i.postimg.cc/mghk48cL/Road-to-success-book-cover-template-Made-with-Poster-My-Wall.jpg",
+    "totalPages": 368,
+    "rating": 4.7,
+    "category": "Fiction",
+    "tags": ["Mystery", "Drama"],
+    "publisher": "G.P. Putnam's Sons",
+    "yearOfPublishing": 2018,
+    "review": "A gripping mystery intertwined with a heartbreaking coming-of-age story set in the marshes of North Carolina."
+  },
+  {
+    "bookId": "006",
+    "bookName": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "image": "https://i.postimg.cc/qvYRvyn8/White-Professional-Business-Book-Kindlebook-Made-with-Poster-My-Wall.jpg",
+    "review": "An insightful and thought-provoking exploration of the history of humanity, from the Stone Age to the modern day.",
+    "totalPages": 464,
+    "rating": 4.6,
+    "category": "History",
+    "tags": ["Non-Fiction", "Anthropology"],
+    "publisher": "Harper",
+    "yearOfPublishing": 2014
+  }
+]
