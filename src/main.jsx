@@ -15,6 +15,9 @@ import ListedBooks from './components/ListedBooks/ListedBooks';
 import ReadList from './components/ListedBooks/ReadList';
 import WishList from './components/ListedBooks/WishList';
 import PagesToRead from './components/PagesToRead/PagesToRead';
+import LogIn from './components/Authentication/LogIn';
+import Register from './components/Authentication/register';
+import AuthProvider from './components/Authentication/AuthProvider';
 
 const router = createBrowserRouter([
   {
@@ -51,6 +54,14 @@ const router = createBrowserRouter([
             loader: () => fetch('/books.json').then(res => res.json())
           }
         ]
+      },
+      {
+        path:'/login',
+        element: <LogIn></LogIn>
+      },
+      {
+        path:'/register',
+        element:<Register></Register>
       }
   ]
   },
@@ -58,6 +69,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-      <RouterProvider router={router} />
+      <AuthProvider><RouterProvider router={router} /></AuthProvider>
   </StrictMode>,
 )
