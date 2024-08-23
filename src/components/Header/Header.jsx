@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { AuthContext } from "../Authentication/AuthProvider";
 import toast, { Toaster } from "react-hot-toast";
+import { CgProfile } from "react-icons/cg";
 
 const Header = () => {
 
@@ -88,8 +89,19 @@ const Header = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end gap-2">
-        {!user? <><NavLink to={'/register'}><button className="btn bg-green-400 sm:btn-sm">Sign Up</button></NavLink>
-        <NavLink to={'/login'}><button className="btn bg-blue-400">Sign In</button></NavLink></>: <button onClick={handleLogOut} className="btn btn-accent">Sign Out</button>}
+        {!user? <><NavLink to={'/register'}><button className="btn bg-green-400">Sign Up</button></NavLink>
+        <NavLink to={'/login'}><button className="btn bg-blue-400">Sign In</button></NavLink></>: 
+        <>
+        <div className="relative group">
+        <CgProfile className="text-5xl mr-3"></CgProfile>
+
+
+        <div className="absolute right-3 text-center p-4 w-30 bg-white border border-gray-300 rounded shadow-lg hidden group-hover:block">
+          <h1 className="mb-2">{user? user.email: ''}</h1>
+        <button onClick={handleLogOut} className="btn btn-accent">Sign Out</button>
+        </div>
+        </div>
+        </>}
         
       </div>
       <Toaster></Toaster>
